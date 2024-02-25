@@ -1,4 +1,32 @@
+---
 packages:
   linux:
     dnf:
-    - 'git'
+      - 'git'
+      - 'git-delta'
+      - 'zsh'
+      - 'kitty'
+      - 'neovim'
+      - 'powerline-fonts'
+      - 'unzip'
+      - 'zip'
+      - 'nvtop'
+      - 'lm_sensors'
+      - 'hplip'
+      - 'lame'
+      - 'flac'
+      - 'htop'
+      - 'bmon'
+      - 'gnome-shell-extension-appindicator'
+      - 'calibre'
+      - 'discord'
+      - 'codium'
+      - 'libusb'
+      - 'bridge-utils'
+      - 'libvirt'
+      - 'virt-install'
+      - 'qemu-kvm'
+    flatpak:
+      - 'com.brave.Browser'
+      - 'org.signal.Signal'
+      - 'com.valvesoftware.Steam'
