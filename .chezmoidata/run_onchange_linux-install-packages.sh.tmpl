@@ -1,0 +1,6 @@
+{{ if eq .chezmoi.os "linux" -}}
+#!/bin/sh
+# packages.yaml hash: {{ include "packages.yaml" | sha256sum }}
+{{ range .packages.linux.dnf -}}
+sudo dnf -y install {{ . | quote }}
+{{ end -}}
