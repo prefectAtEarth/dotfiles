@@ -18,8 +18,10 @@ packages:
       - 'htop'
       - 'bmon'
       - 'gnome-shell-extension-appindicator'
+      - 'nextcloud-client'
       - 'calibre'
       - 'discord'
+      - 'steam'
       - 'codium'
       - 'libusb'
       - 'bridge-utils'
@@ -27,6 +29,6 @@ packages:
       - 'virt-install'
       - 'qemu-kvm'
     flatpak:
+      - 'org.gnome.Extensions'
       - 'com.brave.Browser'
       - 'org.signal.Signal'
-      - 'com.valvesoftware.Steam'

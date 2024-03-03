@@ -12,9 +12,19 @@ printf "[gitlab.com_paulcarroty_vscodium_repo]\nname=download.vscodium.com\nbase
 sudo dnf update -y
 
 # packages.yaml hash: {{ include ".chezmoidata/packages.yaml" | sha256sum }}
+
+## install fedora packages
 pkgs=""
 {{ range .packages.linux.dnf -}}
 pkgs="${pkgs} {{ . | quote }}"
 {{ end -}}
 sudo dnf -y install $pkgs
+
+## install flatpaks
+flatpaks=""
+{{ range .packages.linux.flatpak -}}
+flatpaks="${flatpaks} {{ . | quote }}"
+{{ end -}}
+flatpak install -y $flatpaks
+
 {{ end -}}
