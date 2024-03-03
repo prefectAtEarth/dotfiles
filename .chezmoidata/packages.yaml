@@ -18,6 +18,7 @@ packages:
       - 'htop'
       - 'bmon'
       - 'gnome-shell-extension-appindicator'
+      - 'nextcloud-client'
       - 'calibre'
       - 'discord'
       - 'codium'
