@@ -10,7 +10,7 @@ require('mason').setup({
 
 require('mason-lspconfig').setup({
     -- A list of servers to automatically install if they're not already installed
-    ensure_installed = { 'pylsp', 'gopls', 'lua_ls', 'bashls', 'dockerls', 'kotlin_language_server', 'terraformls' },
+    ensure_installed = { 'pylsp', 'gopls', 'lua_ls', 'kotlin_language_server'},
 })
 
 -- Set different settings for different languages' LSP
