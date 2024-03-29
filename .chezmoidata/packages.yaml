@@ -17,7 +17,6 @@ packages:
       - 'flac'
       - 'htop'
       - 'bmon'
-      - 'gnome-shell-extension-appindicator'
       - 'nextcloud-client'
       - 'calibre'
       - 'discord'
