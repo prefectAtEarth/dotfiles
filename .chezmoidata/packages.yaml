@@ -7,6 +7,7 @@ packages:
       - 'zsh'
       - 'kitty'
       - 'neovim'
+      - 'ranger'
       - 'powerline-fonts'
       - 'unzip'
       - 'zip'
@@ -28,6 +29,5 @@ packages:
       - 'virt-install'
       - 'qemu-kvm'
     flatpak:
-      - 'org.gnome.Extensions'
       - 'com.brave.Browser'
       - 'org.signal.Signal'
