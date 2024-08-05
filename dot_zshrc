@@ -16,6 +16,10 @@ else
 fi
 
 alias dotcd="chezmoi cd"
+alias dotstatus="chezmoi status"
+alias dotfile="nvim $HOME/.local/share/chezmoi/"
+alias dotdiff="chezmoi diff"
+alias dotapply="chezmoi apply"
 
 # PATH extensions
 PATH="$PATH:$HOME/bin:$HOME/.local/share/JetBrains/Toolbox/scripts"
